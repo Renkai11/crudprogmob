@@ -1,0 +1,92 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#113F51B5">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="35dp"
+    android:orientation="horizontal"
+    android:layout_gravity="center">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Data Mahasiswa"
+        android:textSize="25dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+</LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="5dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textSize="18sp"
+        android:text="Nama Mahasiswa"
+        android:textColor="#009688"
+        />
+    <TextView
+        android:id="@+id/tv_nama_barang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="5dp"
+        android:ems="10"
+        android:textSize="18sp"
+        android:hint="Nama Mahasiswa"
+        android:inputType="text" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textSize="18sp"
+        android:text="NIM Mahasiswa"
+        android:textColor="#009688"
+        />
+    <TextView
+        android:id="@+id/tv_merk_barang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="5dp"
+        android:ems="10"
+        android:textSize="18sp"
+        android:hint="@string/merk_hint"
+        android:inputType="text" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textSize="18sp"
+        android:text="Alamat Mahasiswa"
+        android:textColor="#009688"
+        />
+    <TextView
+        android:id="@+id/tv_harga_barang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="5dp"
+        android:textSize="18sp"
+        android:ems="10"
+        android:hint="@string/harga_hint"
+        android:inputType="number" />
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:background="#ddd"
+        android:id="@+id/bt_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kembali"
+        />
+</LinearLayout>

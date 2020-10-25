@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#dc143c"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="324dp"
+        android:layout_marginTop="1dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/images2" />
+
+    <TextView
+        android:id="@+id/nama_app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textSize="40sp"
+        android:text="@string/app_name"
+        android:textColor="#00ff00"
+        />
+
+    <Button
+        android:id="@+id/button_tambah"
+        android:layout_marginTop="25dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nama_app"
+        android:layout_centerHorizontal="true"
+        android:text="@string/tombol_tambah"
+        android:background="#03A9F4"
+        />
+
+    <Button
+        android:id="@+id/button_view"
+        android:layout_marginTop="10dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_tambah"
+        android:layout_centerHorizontal="true"
+        android:text="@string/tombol_lihat"
+        android:background="#8BC34A"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="650dp"
+        android:textSize="18sp"
+        android:text="I Gede Darma Putra"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="680dp"
+        android:textSize="18sp"
+        android:text="1805551027"
+        />
+</RelativeLayout>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#A2D7F5"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#000"
+            android:text="Formulir Biodata"
+            android:textSize="30dp"
+            android:textAlignment="center"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textSize="20sp"
+        android:text="Nama Mahasiswa"
+        android:textColor="#E91E63"
+        />
+    <EditText
+        android:id="@+id/nama_barang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:inputType="text"
+        android:hint="Masukkan Nama"
+        android:ems="10">
+
+    <requestFocus />
+    </EditText>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textSize="20sp"
+        android:text="Alamat Mahasiswa"
+        android:textColor="#E91E63"
+        />
+<EditText
+    android:id="@+id/merk_barang"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="15dp"
+    android:layout_marginLeft="15dp"
+    android:inputType="text"
+    android:hint="Masukkan Alamat"
+    android:ems="10" >
+
+<requestFocus />
+</EditText>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textSize="20sp"
+        android:text="NIM Mahasiswa"
+        android:textColor="#E91E63"
+        />
+<EditText
+android:id="@+id/harga_barang"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginTop="15dp"
+    android:layout_marginLeft="15dp"
+android:inputType="number"
+android:hint="Masukkan NIM"
+android:ems="10" >
+
+<requestFocus />
+</EditText>
+
+<Button
+    android:layout_marginTop="35dp"
+    android:layout_marginLeft="20dp"
+android:id="@+id/buttom_submit"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Submit"
+    android:background="#8BC34A"
+    />
+    </LinearLayout>
